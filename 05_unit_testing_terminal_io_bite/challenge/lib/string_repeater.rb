@@ -4,6 +4,7 @@
 class StringRepeater
   def initialize(terminal)
     @terminal = terminal
+    @number_count = 0
   end
   
   def run
@@ -11,7 +12,7 @@ class StringRepeater
     @terminal.puts "Please enter a string"
     string = get_string
     @terminal.puts "Please enter a number of repeats"
-    repeats = get_string.to_i
+    repeats = get_string
     @terminal.puts "Here is your result:"
     @terminal.puts "#{string * repeats}"
   end
@@ -19,7 +20,14 @@ class StringRepeater
   private
 
   def get_string
-    return string = @terminal.gets.chomp
+    string = @terminal.gets.chomp
+    @number_count += 1
+    if @number_count == 1
+      return string
+    elsif @number_count == 2
+      return string.to_i if string.to_i.to_s == string
+      raise "'Repeats' must be a number"
+    end
   end
 end
 
