@@ -1,6 +1,6 @@
 # golden-square-phase-three
 
-This repo makes up phase one of the Golden Square project on the Makers bootcamp. The objectives of this project were:
+This repo makes up phase three of the Golden Square project on the Makers bootcamp (weeks one and two). The objectives of this project were to:
 
 - Learn to test-drive programs with multiple classes.
 - Learn to break programs up into classes.
@@ -16,4 +16,4 @@ My full list of repos for this project are listed below:
 - [Phase three](https://github.com/atcq9876/golden-square-phase-three)
 - [Phase four](https://github.com/atcq9876/golden-square-phase-four)
 
-See [here](https://github.com/makersacademy/golden-square) for full info on the Golden Square module.
+See [here](https://github.com/makersacademy/golden-square) for full info on the Makers Golden Square module.
